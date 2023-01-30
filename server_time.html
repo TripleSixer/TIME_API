@@ -3,7 +3,7 @@
 <body>
 <script>
 const date = new Date().toLocaleDateString().replaceAll('/', '-').replaceAll('_', '-').replaceAll(' ', '-')
-const time = new Date().toLocaleTimeString().replaceAll('/', '-').replaceAll('_', '-').replaceAll(' ', '-')
+const time = new Date().toLocaleTimeString().replaceAll('/', '-').replaceAll('_', '-').replaceAll(' ', '-').replaceAll("-AM", "")
 document.write(date + '-' + time)
 </script>
 </body>
