@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+const date = new Date().toLocaleDateString().replaceAll('/', '-').replaceAll('_', '-').replaceAll(' ', '-')
+const time = new Date().toLocaleTimeString().replaceAll('/', '-').replaceAll('_', '-').replaceAll(' ', '-')
+document.write(date + '-' + time)
+</script>
+</body>
+</html>
