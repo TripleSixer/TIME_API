@@ -1,10 +1,9 @@
-<!DOCTYPE html>
 <html>
 <body>
 <script>
 const date = new Date().toLocaleDateString().replaceAll('/', '-').replaceAll('_', '-').replaceAll(' ', '-')
 const time = new Date().toLocaleTimeString().replaceAll('/', '-').replaceAll('_', '-').replaceAll(' ', '-').replaceAll("-AM", "")
-document.write(date + '-' + time)
+document.write(`{"timezone":"Asia/Kolkata","unixtime":1675087325,"date":"01/30/2023","time":"2:02:05 PM","day":"Monday"}`)
 </script>
 </body>
 </html>
